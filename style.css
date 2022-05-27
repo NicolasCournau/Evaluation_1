@@ -1,0 +1,168 @@
+:root {
+    --color-blue: rgb(31, 105, 216);
+    --color-yellow: rgb(214, 214, 49);
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+.container-fluid {
+    padding: 0;
+}
+
+/*header*/
+
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 15px;
+    position: fixed;
+    z-index: 1;
+}
+
+.header__logo {
+    width: 10%;
+    border-radius: 25%;
+}
+
+.header__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%; 
+    object-fit: cover;
+    object-position: center;
+    z-index: -1;
+}
+
+.header__link {
+    color: black;
+    padding: 10px;
+    font-weight: 400;
+}
+
+.header__link:hover {
+    font-style: italic;
+    font-weight: 600;
+    color: var(--color-blue)
+}
+
+.header__img {
+    width: 10%;
+    border-radius: 15%;
+}
+
+/*banner*/
+
+.banner {
+    width: 100%;
+    max-width: 100%;
+}
+
+.banner__title {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.banner__text {
+    padding-left: 15%;
+    padding-right: 15%;
+    margin-bottom: 5%;
+}
+
+.ban {
+    width: 100%;
+    max-width: 100%;
+}
+
+.ban img {
+    display: block;
+    margin: auto;
+    width: 60%;
+    max-width: 100%;
+    padding-top: 10%;
+}
+
+.banner__content {
+}
+
+/*content*/
+
+.separator {
+    height: 3px;
+    width: 5%;
+    border: none;
+    box-shadow: none;
+    background-color: var(--color-yellow);
+}
+
+.content article {
+    margin-top: 5%;
+}
+
+.content__title {
+    text-align: center;
+}
+
+.content__img {
+    width: 100%;
+    max-width: 100%;
+}
+
+/*footer*/
+
+.btn-custom {
+    background-color: var(--color-yellow);
+    color: black;
+}
+
+.btn-custom:hover {
+    font-style: italic;
+    font-weight: 600;
+    color: var(--color-blue)
+}
+
+.social {
+    padding-top: 100px;
+}
+
+a.link.facebook {
+    background: #355496;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+a.link.twitter {
+    background-color: #00ACEE;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+a.link.google{
+    background-color: #ff6347;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    color: #fff;
+    font-size: 30px;
+    transform: translateY(-50%);
+}
+span{
+    padding-top:10px;
+}
+span:hover{
+    transition: 0.9s;
+    transform: rotateY(180deg);
+}
