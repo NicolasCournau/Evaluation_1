@@ -7,7 +7,7 @@ Je vous remercie d'avance pour le temps pris afin de l'étudier et pour les reto
 3. J'ai par la suite utilisé les class bootstrap notamment pour le corps de ma page et toujours mieux structurer ma page à l'aide
 des grid pour avoir un responsive design d'abord pour les mobiles mais aussi pour les plus grands écrans, j'ai préféré faire le header en CSS pour utiliser flexbox.
 4. Après cela j'ai rédigé les différents textes de mon html tout en stylisant le contenu avec CSS.
-5. J'ai ensuite répété l'opération pour créé ma seconde page sur les événements.
+5. J'ai ensuite répété l'opération pour créé ma seconde page sur les événements à venir.
 
 Je vous souhaite une bonne journée!
 
